@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.patient.PatientCreateActivity"
+    android:contentDescription="@string/scroll_form_desc">
+
+    <!-- ONE direct child only -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_87"
+        tools:ignore="UselessParent">
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_full_name"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:minHeight="48dp"
+            android:maxWidth="360dp"
+            tools:ignore="SmallClickTarget" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_age"
+            android:inputType="number"
+            android:autofillHints="none"
+            android:minHeight="48dp"
+            tools:ignore="SmallClickTarget" />
+
+        <EditText
+            android:id="@+id/etContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_contact"
+            android:inputType="phone"
+            android:autofillHints="phone"
+            android:minHeight="48dp"
+            tools:ignore="SmallClickTarget" />
+
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/gender_options"
+            android:prompt="@string/gender_prompt"
+            android:minHeight="48dp"/>
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_create_patient"
+            android:minHeight="48dp"
+            tools:ignore="TooWide"/>
+
+    </LinearLayout>
+</ScrollView>

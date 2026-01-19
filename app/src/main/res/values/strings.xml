@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_view_bills">View Bill History</string>
+    <string name="btn_view_treatments">View Treatment History</string>
+    <string name="btn_book_appointment">Book Appointment</string>
+    <string name="tv_name_default">John Doe</string>
+    <string name="tv_details_default">Age: 30 | Gender: Male&#10;Contact: 123-456-7890</string>
+    <string name="title_bill_history">Your Bill History</string>
+    <string name="scroll_form_desc">Patient creation form, scroll to fill fields</string>
+    <string name="app_name">Medical Management System
+</string>
+    <string name="title_treatment_history">Your Treatment History</string>
+    <string name="gender_prompt">Select Gender</string>
+    <string name="hint_full_name">Full Name</string>
+        <string name="hint_age">Age</string>
+        <string name="hint_contact">Contact Number</string>
+        <string name="btn_create_patient">Create Patient</string>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    </resources>
+
+

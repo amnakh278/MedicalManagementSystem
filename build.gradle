@@ -1,0 +1,13 @@
+// File: build.gradle (Project: MedicalManagementSystem)
+
+plugins {
+    // Declare the Android Gradle plugin without applying it here
+    id 'com.android.application' version '8.10.1' apply false
+    // Declare the Kotlin plugin without applying it here
+    id 'org.jetbrains.kotlin.android' version '1.9.0' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+

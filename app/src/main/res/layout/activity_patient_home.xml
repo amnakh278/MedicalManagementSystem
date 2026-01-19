@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.medicalmanagementsystem.ui.patient.PatientHomeActivity">
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_name_default"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Patient Details -->
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/tv_details_default" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorControlHighlight"
+        android:layout_marginVertical="16dp" />
+
+    <Button
+        android:id="@+id/btnViewBills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_view_bills" />
+
+    <Button
+        android:id="@+id/btnViewTreatments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/btn_view_treatments" />
+
+    <Button
+        android:id="@+id/btnBookAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/btn_book_appointment" />
+
+</LinearLayout>
